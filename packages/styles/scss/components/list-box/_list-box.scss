@@ -84,10 +84,10 @@ $list-box-menu-width: convert.to-rem(300px);
     @include reset;
 
     position: relative;
-    border: none;
-    background-color: $field;
+    border: 1px solid $border-strong;
+    border-radius: $border-radius;
+    background-color: transparent;
     block-size: convert.to-rem(40px);
-    border-block-end: 1px solid $border-strong;
     color: $text-primary;
     cursor: pointer;
     inline-size: $list-box-width;
@@ -208,7 +208,7 @@ $list-box-menu-width: convert.to-rem(300px);
   .#{$prefix}--list-box--disabled,
   .#{$prefix}--list-box--disabled .#{$prefix}--list-box__field,
   .#{$prefix}--list-box--disabled .#{$prefix}--list-box__field:focus {
-    border-block-end-color: transparent;
+    border-color: transparent;
     outline: none;
   }
 

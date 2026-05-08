@@ -112,8 +112,8 @@
         padding-box,
       linear-gradient(to bottom, theme.$ai-border-start, theme.$ai-border-end)
         border-box,
-      // Needed to underlay the transparent border
-      linear-gradient(
+      /* Needed to underlay the transparent border*/
+        linear-gradient(
           to top,
           theme.$ai-aura-hover-background,
           theme.$ai-aura-hover-background
@@ -131,8 +131,8 @@
       linear-gradient(to top, theme.$layer, theme.$layer) padding-box,
       linear-gradient(to bottom, theme.$border-inverse, theme.$border-inverse)
         border-box,
-      // Needed to underlay the transparent border
-      linear-gradient(to top, theme.$layer, theme.$layer)
+      /* Needed to underlay the transparent border*/
+        linear-gradient(to top, theme.$layer, theme.$layer)
         border-box;
   } @else {
     background:
@@ -147,8 +147,8 @@
       linear-gradient(to top, $background, $background) padding-box,
       linear-gradient(to bottom, theme.$ai-border-start, theme.$ai-border-end)
         border-box,
-      // Needed to underlay the transparent border
-      linear-gradient(to top, $background, $background)
+      /* Needed to underlay the transparent border*/
+        linear-gradient(to top, $background, $background)
         border-box;
   }
 }

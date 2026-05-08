@@ -38,10 +38,10 @@
     @include focus-outline('reset');
 
     padding: 0 layout.density('padding-inline');
-    border: none;
-    background-color: $field;
+    border: 1px solid $border-strong;
+    border-radius: $border-radius;
+    background-color: transparent;
     block-size: layout.size('height');
-    border-block-end: 1px solid $border-strong;
     color: $text-primary;
     font-family: inherit;
 
@@ -208,9 +208,9 @@
   .#{$prefix}--text-input:disabled {
     @include focus-outline('reset');
 
-    background-color: $field;
+    border: 1px solid transparent;
 
-    border-block-end: 1px solid transparent;
+    background-color: $field;
     color: $text-disabled;
     cursor: not-allowed;
     // Needed to fix disabled text in Safari #6673

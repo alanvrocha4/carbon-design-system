@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`styles body01 should be printable 1`] = `
 "font-size: 0.875rem;
 font-weight: 400;
-line-height: 1.42857;
+line-height: 1.6;
 letter-spacing: 0.16px;"
 `;
 
@@ -17,7 +17,7 @@ letter-spacing: 0;"
 exports[`styles bodyCompact01 should be printable 1`] = `
 "font-size: 0.875rem;
 font-weight: 400;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0.16px;"
 `;
 
@@ -31,7 +31,7 @@ letter-spacing: 0;"
 exports[`styles bodyLong01 should be printable 1`] = `
 "font-size: 0.875rem;
 font-weight: 400;
-line-height: 1.42857;
+line-height: 1.6;
 letter-spacing: 0.16px;"
 `;
 
@@ -45,7 +45,7 @@ letter-spacing: 0;"
 exports[`styles bodyShort01 should be printable 1`] = `
 "font-size: 0.875rem;
 font-weight: 400;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0.16px;"
 `;
 
@@ -59,14 +59,14 @@ letter-spacing: 0;"
 exports[`styles caption01 should be printable 1`] = `
 "font-size: 0.75rem;
 font-weight: 400;
-line-height: 1.33333;
+line-height: 1.5;
 letter-spacing: 0.32px;"
 `;
 
 exports[`styles caption02 should be printable 1`] = `
 "font-size: 0.875rem;
 font-weight: 400;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0.32px;"
 `;
 
@@ -74,7 +74,7 @@ exports[`styles code01 should be printable 1`] = `
 "font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
 font-size: 0.75rem;
 font-weight: 400;
-line-height: 1.33333;
+line-height: 1.5;
 letter-spacing: 0.32px;"
 `;
 
@@ -82,7 +82,7 @@ exports[`styles code02 should be printable 1`] = `
 "font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
 font-size: 0.875rem;
 font-weight: 400;
-line-height: 1.42857;
+line-height: 1.6;
 letter-spacing: 0.32px;"
 `;
 
@@ -138,7 +138,7 @@ letter-spacing: 0;"
 exports[`styles expressiveHeading04 should be printable 1`] = `
 "font-size: 1.75rem;
 font-weight: 400;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0;"
 `;
 
@@ -201,7 +201,7 @@ letter-spacing: 0;"
 exports[`styles fluidHeading04 should be printable 1`] = `
 "font-size: 1.75rem;
 font-weight: 400;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0;"
 `;
 
@@ -245,7 +245,7 @@ letter-spacing: 0;"
 exports[`styles heading01 should be printable 1`] = `
 "font-size: 0.875rem;
 font-weight: 600;
-line-height: 1.42857;
+line-height: 1.6;
 letter-spacing: 0.16px;"
 `;
 
@@ -266,7 +266,7 @@ letter-spacing: 0;"
 exports[`styles heading04 should be printable 1`] = `
 "font-size: 1.75rem;
 font-weight: 400;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0;"
 `;
 
@@ -294,7 +294,7 @@ letter-spacing: 0;"
 exports[`styles headingCompact01 should be printable 1`] = `
 "font-size: 0.875rem;
 font-weight: 600;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0.16px;"
 `;
 
@@ -307,48 +307,48 @@ letter-spacing: 0;"
 
 exports[`styles helperText01 should be printable 1`] = `
 "font-size: 0.75rem;
-line-height: 1.33333;
+line-height: 1.5;
 letter-spacing: 0.32px;"
 `;
 
 exports[`styles helperText02 should be printable 1`] = `
 "font-size: 0.875rem;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0.16px;"
 `;
 
 exports[`styles label01 should be printable 1`] = `
 "font-size: 0.75rem;
 font-weight: 400;
-line-height: 1.33333;
+line-height: 1.5;
 letter-spacing: 0.32px;"
 `;
 
 exports[`styles label02 should be printable 1`] = `
 "font-size: 0.875rem;
 font-weight: 400;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0.16px;"
 `;
 
 exports[`styles legal01 should be printable 1`] = `
 "font-size: 0.75rem;
 font-weight: 400;
-line-height: 1.33333;
+line-height: 1.5;
 letter-spacing: 0.32px;"
 `;
 
 exports[`styles legal02 should be printable 1`] = `
 "font-size: 0.875rem;
 font-weight: 400;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0.16px;"
 `;
 
 exports[`styles productiveHeading01 should be printable 1`] = `
 "font-size: 0.875rem;
 font-weight: 600;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0.16px;"
 `;
 
@@ -369,7 +369,7 @@ letter-spacing: 0;"
 exports[`styles productiveHeading04 should be printable 1`] = `
 "font-size: 1.75rem;
 font-weight: 400;
-line-height: 1.28572;
+line-height: 1.5;
 letter-spacing: 0;"
 `;
 

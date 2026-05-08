@@ -62,11 +62,11 @@
 
     order: 1;
     padding: 0 layout.size('height');
-    border: none;
+    border: 1px solid $border-strong;
+    border-radius: $border-radius;
     appearance: none;
-    background-color: $field;
+    background-color: transparent;
     block-size: layout.size('height');
-    border-block-end: 1px solid $border-strong;
     color: $text-primary;
 
     inline-size: 100%;
@@ -98,8 +98,8 @@
   }
 
   .#{$prefix}--search-input[disabled] {
+    border: 1px solid transparent;
     background-color: $field;
-    border-block-end: 1px solid transparent;
     color: $text-disabled;
     cursor: not-allowed;
 

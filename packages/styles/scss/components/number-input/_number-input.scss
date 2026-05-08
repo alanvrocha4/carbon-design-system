@@ -49,15 +49,14 @@
 
     display: inline-flex;
     box-sizing: border-box;
-    border: 0;
-    border-radius: 0;
+    border: 1px solid $border-strong;
+    border-radius: $border-radius;
 
     // Firefox: Hide spinner (up and down buttons)
     -moz-appearance: textfield;
     appearance: textfield;
-    background-color: $field;
+    background-color: transparent;
     block-size: convert.to-rem(40px);
-    border-block-end: convert.to-rem(1px) solid $border-strong;
     color: $text-primary;
     font-family: font-family('sans');
     font-weight: 400;
@@ -130,6 +129,7 @@
 
   .#{$prefix}--number input[type='number']:disabled,
   .#{$prefix}--number input[type='text']:disabled {
+    border: 1px solid transparent;
     background-color: $field;
     color: $text-disabled;
     cursor: not-allowed;

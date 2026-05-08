@@ -47,27 +47,17 @@ $button-focus-color: custom-property.get-var('button-focus-color', $focus);
   position: relative;
   display: inline-flex;
   flex-shrink: 0;
-  justify-content: space-between;
+  justify-content: center;
+  // Dynamic padding based on size (md default)
+  padding: 12px 16px;
   border-radius: $button-border-radius;
   // Fix to remove added margins on buttons in safari (see #5155)
   margin: 0;
   cursor: pointer;
   inline-size: max-content;
   max-inline-size: convert.to-rem(320px);
-  min-block-size: layout.size('height');
   outline: none;
-  // -1px to compensate for border width
-  padding-block: min(
-    calc((layout.size('height') - var(--temp-1lh)) / 2 - convert.to-rem(1px)),
-    var(--temp-padding-block-max)
-  );
-  padding-inline: calc(layout.density('padding-inline') - convert.to-rem(1px))
-    calc(
-      layout.density('padding-inline') * 3 + convert.to-rem(16px) - convert.to-rem(
-          1px
-        )
-    );
-  text-align: start;
+  text-align: center;
   text-decoration: none;
   transition:
     background $duration-fast-01 motion(entrance, productive),

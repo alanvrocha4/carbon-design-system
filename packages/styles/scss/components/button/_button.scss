@@ -203,10 +203,6 @@
       $background-active
     );
 
-    padding-inline-end: calc(
-      layout.density('padding-inline') - convert.to-rem(1px)
-    );
-
     .#{$prefix}--btn__icon {
       position: static;
       align-self: center;
@@ -245,10 +241,8 @@
   .#{$prefix}--btn--icon-only {
     align-items: center;
     justify-content: center;
-    padding: 0;
-    block-size: layout.size('height');
-    inline-size: layout.size('height');
-    padding-block-start: 0;
+    padding: 12px;
+    padding-block-start: 12px;
 
     > :first-child {
       min-inline-size: convert.to-rem(16px);
@@ -269,12 +263,6 @@
     &.#{$prefix}--btn--danger--ghost .#{$prefix}--btn__icon {
       margin: 0;
     }
-
-    &.#{$prefix}--btn--danger--ghost {
-      padding-inline-end: calc(
-        layout.density('padding-inline') - convert.to-rem(16px)
-      );
-    }
   }
 
   // Adjust text positioning in extra small variant only
@@ -287,6 +275,36 @@
   .#{$prefix}--btn--sm:not(.#{$prefix}--btn--icon-only) .#{$prefix}--btn__icon,
   .#{$prefix}--btn--md:not(.#{$prefix}--btn--icon-only) .#{$prefix}--btn__icon {
     margin-block-start: 0;
+  }
+
+  .#{$prefix}--btn--sm {
+    @include layout.use('size', $default: 'sm', $min: 'sm', $max: 'md');
+
+    padding: 8px 12px;
+  }
+
+  .#{$prefix}--btn--md {
+    @include layout.use('size', $default: 'md', $min: 'xs', $max: 'lg');
+
+    padding: 12px 16px;
+  }
+
+  .#{$prefix}--btn--lg {
+    @include layout.use('size', $default: 'lg', $min: 'xs', $max: 'xl');
+
+    padding: 16px 24px;
+  }
+
+  .#{$prefix}--btn--xl {
+    @include layout.use('size', $default: 'xl', $min: 'sm', $max: 'xxl');
+
+    padding: 20px 24px;
+  }
+
+  .#{$prefix}--btn--2xl {
+    @include layout.use('size', $default: '2xl', $min: 'sm', $max: 'max');
+
+    padding: 24px 32px;
   }
 
   .#{$prefix}--btn--icon-only.#{$prefix}--btn--selected {
@@ -392,10 +410,6 @@
         $button-danger-active
       );
 
-      padding-inline-end: calc(
-        layout.density('padding-inline') - convert.to-rem(1px)
-      );
-
       .#{$prefix}--btn__icon {
         position: static;
         margin-inline-start: $spacing-03;
@@ -429,14 +443,7 @@
   .#{$prefix}--btn--expressive {
     @include type-style('body-compact-02');
 
-    padding-block: min(
-      calc(
-        (layout.size('height') - var(--temp-expressive-1lh)) / 2 - convert.to-rem(
-            1px
-          )
-      ),
-      var(--temp-padding-block-max)
-    );
+    padding-block: 12px;
   }
 
   .#{$prefix}--btn--icon-only.#{$prefix}--btn--expressive {
