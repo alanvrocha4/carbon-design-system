@@ -54,10 +54,10 @@
 
     position: relative;
     display: block;
-    border: none;
-    background-color: $field;
+    border: 1px solid $border-strong;
+    border-radius: $border-radius;
+    background-color: transparent;
     block-size: convert.to-rem(40px);
-    border-block-end: 1px solid $border-strong;
     color: $text-primary;
     cursor: pointer;
     inline-size: 100%;
@@ -340,7 +340,8 @@
   }
 
   .#{$prefix}--dropdown--disabled {
-    border-block-end-color: transparent;
+    border-color: transparent;
+    background-color: $field;
 
     &:hover {
       background-color: $field;

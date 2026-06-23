@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Custom Theme - Web Components Demo</title>
+    <style>
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            padding: 2rem;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        h1, h2 {
+            margin-bottom: 1rem;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 8px; /* Demonstrando custom theme container */
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .flex-row {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+    <!-- Imports dos módulos dos Web Components diretamente da build via ES -->
+    <script type="module" src="/packages/web-components/es/components/button/button.js"></script>
+    <script type="module" src="/packages/web-components/es/components/text-input/text-input.js"></script>
+    <script type="module" src="/packages/web-components/es/components/number-input/number-input.js"></script>
+    <script type="module" src="/packages/web-components/es/components/select/select.js"></script>
+    <script type="module" src="/packages/web-components/es/components/select/select-item.js"></script>
+    <script type="module" src="/packages/web-components/es/components/tile/tile.js"></script>
+    <script type="module" src="/packages/web-components/es/components/modal/modal.js"></script>
+    <script type="module" src="/packages/web-components/es/components/modal/modal-header.js"></script>
+    <script type="module" src="/packages/web-components/es/components/modal/modal-heading.js"></script>
+    <script type="module" src="/packages/web-components/es/components/modal/modal-close-button.js"></script>
+    <script type="module" src="/packages/web-components/es/components/modal/modal-body.js"></script>
+    <script type="module" src="/packages/web-components/es/components/modal/modal-footer.js"></script>
+</head>
+<body>
+
+    <h1>Carbon Custom Theme - Demonstração (Web Components)</h1>
+    <p>Abaixo estão os componentes compilados localmente com o novo tema aplicado (bordas arredondadas, inputs transparentes com outline, e sombras/elevações).</p>
+    <p>Você pode testar servindo a pasta raiz do projeto usando um servidor HTTP estático (ex: <code>npx serve .</code> ou abrindo através do Live Server do VSCode).</p>
+
+    <!-- Botões -->
+    <div class="container">
+        <h2>Buttons</h2>
+        <div class="flex-row">
+            <cds-button kind="primary">Primary Button</cds-button>
+            <cds-button kind="secondary">Secondary Button</cds-button>
+            <cds-button kind="danger">Danger Button</cds-button>
+            <cds-button kind="ghost">Ghost Button</cds-button>
+        </div>
+        <div class="flex-row">
+            <cds-button size="sm">Small</cds-button>
+            <cds-button size="md">Medium</cds-button>
+            <cds-button size="lg">Large</cds-button>
+            <cds-button size="xl">Extra Large</cds-button>
+        </div>
+    </div>
+
+    <!-- Inputs -->
+    <div class="container">
+        <h2>Inputs (Outline / Transparent)</h2>
+        <div class="flex-row" style="align-items: flex-start;">
+            <cds-text-input label="Nome" placeholder="Digite seu nome..."></cds-text-input>
+
+            <cds-number-input label="Idade" value="25" min="0" max="100"></cds-number-input>
+
+            <cds-select label-text="Selecione um item">
+                <cds-select-item value="opcao1">Opção 1</cds-select-item>
+                <cds-select-item value="opcao2">Opção 2</cds-select-item>
+                <cds-select-item value="opcao3">Opção 3</cds-select-item>
+            </cds-select>
+        </div>
+        <div class="flex-row">
+            <cds-text-input label="Desabilitado" disabled placeholder="Input transparente quando não desabilitado"></cds-text-input>
+        </div>
+    </div>
+
+    <!-- Elevações e Bordas -->
+    <div class="container">
+        <h2>Elevações e Sombras (Tile)</h2>
+        <div class="flex-row">
+            <cds-tile>
+                Este é um componente Tile. Com o novo tema, ele possui bordas arredondadas (elevation-1) como padrão em estilos customizados.
+            </cds-tile>
+        </div>
+    </div>
+
+    <!-- Modal para testar sombras maiores e bordas -->
+    <div class="container">
+        <h2>Modal (Elevation 5 / Large Border Radius)</h2>
+        <cds-button id="open-modal-btn">Abrir Modal Customizada</cds-button>
+
+        <cds-modal id="demo-modal">
+            <cds-modal-header>
+                <cds-modal-close-button></cds-modal-close-button>
+                <cds-modal-heading>Título da Modal</cds-modal-heading>
+            </cds-modal-header>
+            <cds-modal-body>
+                <p>Repare nas bordas arredondadas ($border-radius-lg) e no sombreamento escuro ($elevation-5) aplicados ao modal de acordo com o tema customizado.</p>
+                <br />
+                <cds-text-input label="Confirme" placeholder="Digite algo..."></cds-text-input>
+            </cds-modal-body>
+            <cds-modal-footer>
+                <cds-button kind="secondary" data-modal-close>Cancelar</cds-button>
+                <cds-button kind="primary">Confirmar Ação</cds-button>
+            </cds-modal-footer>
+        </cds-modal>
+    </div>
+
+    <script>
+        document.getElementById('open-modal-btn').addEventListener('click', () => {
+            document.getElementById('demo-modal').open = true;
+        });
+    </script>
+</body>
+</html>

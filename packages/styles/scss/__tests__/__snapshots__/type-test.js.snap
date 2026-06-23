@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
 {
@@ -566,7 +566,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 58,
+              "column": 54,
               "line": 64,
             },
             "source": undefined,
@@ -577,7 +577,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-caption-01-line-height, 1.33333)",
+          "value": "var(--cds-caption-01-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -649,7 +649,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 58,
+              "column": 54,
               "line": 71,
             },
             "source": undefined,
@@ -660,7 +660,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-caption-02-line-height, 1.28572)",
+          "value": "var(--cds-caption-02-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -732,7 +732,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 56,
+              "column": 52,
               "line": 78,
             },
             "source": undefined,
@@ -743,7 +743,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-label-01-line-height, 1.33333)",
+          "value": "var(--cds-label-01-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -815,7 +815,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 56,
+              "column": 52,
               "line": 85,
             },
             "source": undefined,
@@ -826,7 +826,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-label-02-line-height, 1.28572)",
+          "value": "var(--cds-label-02-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -882,7 +882,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 62,
+              "column": 58,
               "line": 91,
             },
             "source": undefined,
@@ -893,7 +893,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-helper-text-01-line-height, 1.33333)",
+          "value": "var(--cds-helper-text-01-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -965,7 +965,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 62,
+              "column": 58,
               "line": 98,
             },
             "source": undefined,
@@ -976,7 +976,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-helper-text-02-line-height, 1.28572)",
+          "value": "var(--cds-helper-text-02-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -1048,7 +1048,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 61,
+              "column": 57,
               "line": 105,
             },
             "source": undefined,
@@ -1059,7 +1059,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-body-short-01-line-height, 1.28572)",
+          "value": "var(--cds-body-short-01-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -1214,7 +1214,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 60,
+              "column": 56,
               "line": 119,
             },
             "source": undefined,
@@ -1225,7 +1225,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-body-long-01-line-height, 1.42857)",
+          "value": "var(--cds-body-long-01-line-height, 1.6)",
         },
         {
           "position": Position {
@@ -1396,7 +1396,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 55,
+              "column": 51,
               "line": 134,
             },
             "source": undefined,
@@ -1407,7 +1407,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-code-01-line-height, 1.33333)",
+          "value": "var(--cds-code-01-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -1495,7 +1495,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 55,
+              "column": 51,
               "line": 142,
             },
             "source": undefined,
@@ -1506,7 +1506,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-code-02-line-height, 1.42857)",
+          "value": "var(--cds-code-02-line-height, 1.6)",
         },
         {
           "position": Position {
@@ -1578,7 +1578,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 58,
+              "column": 54,
               "line": 149,
             },
             "source": undefined,
@@ -1589,7 +1589,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-heading-01-line-height, 1.42857)",
+          "value": "var(--cds-heading-01-line-height, 1.6)",
         },
         {
           "position": Position {
@@ -1744,7 +1744,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 69,
+              "column": 65,
               "line": 163,
             },
             "source": undefined,
@@ -1755,7 +1755,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-productive-heading-01-line-height, 1.28572)",
+          "value": "var(--cds-productive-heading-01-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -1993,7 +1993,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 69,
+              "column": 65,
               "line": 184,
             },
             "source": undefined,
@@ -2004,7 +2004,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-productive-heading-04-line-height, 1.28572)",
+          "value": "var(--cds-productive-heading-04-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -2422,7 +2422,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
             {
               "position": Position {
                 "end": {
-                  "column": 25,
+                  "column": 21,
                   "line": 219,
                 },
                 "source": undefined,
@@ -2433,7 +2433,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
               },
               "property": "line-height",
               "type": "declaration",
-              "value": "1.28572",
+              "value": "1.5",
             },
             {
               "position": Position {
@@ -2592,7 +2592,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 69,
+              "column": 65,
               "line": 234,
             },
             "source": undefined,
@@ -2603,7 +2603,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-expressive-heading-01-line-height, 1.42857)",
+          "value": "var(--cds-expressive-heading-01-line-height, 1.6)",
         },
         {
           "position": Position {
@@ -3025,7 +3025,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 23,
+              "column": 19,
               "line": 270,
             },
             "source": undefined,
@@ -3036,7 +3036,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "1.28572",
+          "value": "1.5",
         },
         {
           "position": Position {
@@ -4427,7 +4427,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
             {
               "position": Position {
                 "end": {
-                  "column": 25,
+                  "column": 21,
                   "line": 385,
                 },
                 "source": undefined,
@@ -4438,7 +4438,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
               },
               "property": "line-height",
               "type": "declaration",
-              "value": "1.28572",
+              "value": "1.5",
             },
             {
               "position": Position {
@@ -6804,7 +6804,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 56,
+              "column": 52,
               "line": 582,
             },
             "source": undefined,
@@ -6815,7 +6815,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-legal-01-line-height, 1.33333)",
+          "value": "var(--cds-legal-01-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -6887,7 +6887,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 56,
+              "column": 52,
               "line": 589,
             },
             "source": undefined,
@@ -6898,7 +6898,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-legal-02-line-height, 1.28572)",
+          "value": "var(--cds-legal-02-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -6970,7 +6970,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 63,
+              "column": 59,
               "line": 596,
             },
             "source": undefined,
@@ -6981,7 +6981,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-body-compact-01-line-height, 1.28572)",
+          "value": "var(--cds-body-compact-01-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -7136,7 +7136,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 66,
+              "column": 62,
               "line": 610,
             },
             "source": undefined,
@@ -7147,7 +7147,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-heading-compact-01-line-height, 1.28572)",
+          "value": "var(--cds-heading-compact-01-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -7302,7 +7302,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 55,
+              "column": 51,
               "line": 624,
             },
             "source": undefined,
@@ -7313,7 +7313,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-body-01-line-height, 1.42857)",
+          "value": "var(--cds-body-01-line-height, 1.6)",
         },
         {
           "position": Position {
@@ -7551,7 +7551,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 58,
+              "column": 54,
               "line": 645,
             },
             "source": undefined,
@@ -7562,7 +7562,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-heading-04-line-height, 1.28572)",
+          "value": "var(--cds-heading-04-line-height, 1.5)",
         },
         {
           "position": Position {
@@ -8150,7 +8150,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 23,
+              "column": 19,
               "line": 695,
             },
             "source": undefined,
@@ -8161,7 +8161,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "1.28572",
+          "value": "1.5",
         },
         {
           "position": Position {
@@ -9384,7 +9384,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
             {
               "position": Position {
                 "end": {
-                  "column": 25,
+                  "column": 21,
                   "line": 796,
                 },
                 "source": undefined,
@@ -9395,7 +9395,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
               },
               "property": "line-height",
               "type": "declaration",
-              "value": "1.28572",
+              "value": "1.5",
             },
             {
               "position": Position {
@@ -9819,7 +9819,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
             {
               "position": Position {
                 "end": {
-                  "column": 25,
+                  "column": 21,
                   "line": 832,
                 },
                 "source": undefined,
@@ -9830,7 +9830,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
               },
               "property": "line-height",
               "type": "declaration",
-              "value": "1.28572",
+              "value": "1.5",
             },
             {
               "position": Position {
@@ -12196,7 +12196,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
         {
           "position": Position {
             "end": {
-              "column": 56,
+              "column": 52,
               "line": 1029,
             },
             "source": undefined,
@@ -12207,7 +12207,7 @@ exports[`@carbon/styles/scss/type type-classes mixin 1`] = `
           },
           "property": "line-height",
           "type": "declaration",
-          "value": "var(--cds-label-01-line-height, 1.33333)",
+          "value": "var(--cds-label-01-line-height, 1.5)",
         },
         {
           "position": Position {

@@ -49,12 +49,11 @@
     @include layout.use('density', $default: 'normal');
 
     display: block;
-    border: none;
-    border-radius: 0;
+    border: 1px solid $border-strong;
+    border-radius: $border-radius;
     appearance: none;
-    background-color: $field;
+    background-color: transparent;
     block-size: layout.size('height');
-    border-block-end: 1px solid $border-strong;
     color: $text-primary;
     cursor: pointer;
     font-family: inherit;
@@ -99,8 +98,8 @@
 
     &:disabled,
     &:hover:disabled {
+      border-color: transparent;
       background-color: $field;
-      border-block-end-color: transparent;
       color: $text-disabled;
       cursor: not-allowed;
     }

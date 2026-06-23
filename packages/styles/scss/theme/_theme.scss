@@ -40,3 +40,17 @@ $border-subtle: custom-property.get-var('border-subtle');
 $border-subtle-selected: custom-property.get-var('border-subtle-selected');
 $border-strong: custom-property.get-var('border-strong');
 $border-tile: custom-property.get-var('border-tile');
+
+// Custom theme border radii
+$border-radius-sm: 2px !default;
+$border-radius-md: 4px !default;
+$border-radius-lg: 8px !default;
+$border-radius: $border-radius-md !default;
+
+// Custom theme elevations
+$elevation-0: none !default;
+$elevation-1: 0 1px 2px rgba(0, 0, 0, 0.1) !default;
+$elevation-2: 0 2px 4px rgba(0, 0, 0, 0.12) !default;
+$elevation-3: 0 4px 8px rgba(0, 0, 0, 0.15) !default;
+$elevation-4: 0 8px 16px rgba(0, 0, 0, 0.2) !default;
+$elevation-5: 0 12px 24px rgba(0, 0, 0, 0.25) !default;

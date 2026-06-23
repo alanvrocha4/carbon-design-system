@@ -31,10 +31,10 @@
     @include focus-outline('reset');
 
     padding: convert.to-rem(11px) layout.density('padding-inline');
-    border: none;
-    background-color: $field;
+    border: 1px solid $border-strong;
+    border-radius: $border-radius;
+    background-color: transparent;
     block-size: 100%;
-    border-block-end: 1px solid $border-strong;
     color: $text-primary;
     font-family: inherit;
     min-block-size: convert.to-rem(40px);
@@ -111,8 +111,8 @@
   // Disabled
   //-----------------------------
   .#{$prefix}--text-area:disabled {
+    border: 1px solid transparent;
     background-color: $field;
-    border-block-end: 1px solid transparent;
     color: $text-disabled;
     cursor: not-allowed;
     outline: none;

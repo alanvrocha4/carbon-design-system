@@ -60,7 +60,7 @@ $popover-border-color: custom-property.get-var(
 );
 
 // The border radius value for the popover container
-$popover-border-radius: custom-property.get-var('popover-border-radius', 2px);
+$popover-border-radius: custom-property.get-var('popover-border-radius', 4px);
 
 // The text color used for text placed inside of the popover
 $popover-text-color: custom-property.get-var(
@@ -210,6 +210,7 @@ $popover-caret-height: custom-property.get-var(
     display: none;
     border-radius: $popover-border-radius;
     background-color: $popover-background-color;
+    box-shadow: theme.$elevation-3;
     color: $popover-text-color;
     inline-size: max-content;
     max-inline-size: convert.to-rem(368px);
